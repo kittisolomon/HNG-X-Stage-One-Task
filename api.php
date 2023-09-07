@@ -10,7 +10,7 @@ $current_day = Date('l');
 
 $utc_time = Date('Y-m-d h:i:s');
 
-$github_file_url = 'xxx';
+$github_file_url = 'https://github.com/kittisolomon/HNG-X-Stage-One-Task/blob/main/api.php';
 
 $github_repo_url = 'https://github.com/kittisolomon/HNG-X-Stage-One-Task';
 
