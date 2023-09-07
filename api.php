@@ -1,11 +1,18 @@
 <?php 
 
+header('Content-Type: application/json');
+
 date_default_timezone_set('UTC');
 
 $slack_name = $_GET['slack_name'];
 
 $track = $_GET['track'];
 
+if(empty($slack_name) && empty($track) {
+
+   echo $response = json_encode(['response_code' => 402, 'message' => 'slack_name or track cannot be empty']);
+   
+   }
 $current_day = Date('l');
 
 $utc_time = Date('Y-m-d h:i:s');
