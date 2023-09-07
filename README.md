@@ -1,2 +1,2 @@
-# HNG_X_Stage_One_Task
+# HNG X Stage One Task
 HNG X stage one task
