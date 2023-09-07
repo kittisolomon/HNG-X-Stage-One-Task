@@ -17,7 +17,7 @@ $track = $_GET['track'];
  
 $current_day = Date('l');
 
-$utc_time = Date('Y-m-d h:i:s');
+$utc_time = Date('Y-m-d\TH:i:s\Z');
 
 $github_file_url = 'https://github.com/kittisolomon/HNG-X-Stage-One-Task/blob/main/index.php';
 
