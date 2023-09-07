@@ -8,7 +8,7 @@ $slack_name = $_GET['slack_name'];
 
 $track = $_GET['track'];
 
-if(empty($slack_name) && empty($track) {
+if(empty($slack_name) || empty($track)){
 
    echo $response = json_encode(['response_code' => 402, 'message' => 'slack_name or track cannot be empty']);
    exit();
