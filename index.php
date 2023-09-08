@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 date_default_timezone_set('UTC');
 
-if(!isset($_GET['slack_name']) && !isset($_GET['track'])){
+if(!isset($_GET['slack_name']) || !isset($_GET['track'])){
 
 echo $response = json_encode(['response_code' => 402, 'message' => 'slack_name or track cannot be empty']);
 exit();
